@@ -1,0 +1,39 @@
+body
+{
+    background: white;
+}
+
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+nav
+{
+float: right;
+}
+
+
+div.nav_container
+{
+    height: 24px;
+    width : 120 px;
+}
+
+ul.nav li
+{
+    float: inline-end;
+}
+
+ul.nav img
+{
+    height: px;
+    width: 24 px;
+    position: relative;
+    padding-top: 7 px;
+}
