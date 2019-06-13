@@ -1,3 +1,4 @@
+
 body
 {
     background: white;
@@ -13,27 +14,113 @@ a:hover {
 	text-decoration:underline;
 }
 
+/*NAVIGATION*/
+
 nav
 {
-float: right;
+    float: right;
 }
 
 
-div.nav_container
+.nav_container
 {
-    height: 24px;
-    width : 120 px;
+    display: inline-block;
+    height: 34px;
+    width : 34px;
 }
 
 ul.nav li
 {
-    float: inline-end;
+    display: inline-block;
+    padding-left: 15px;
 }
 
-ul.nav img
+.nav_container img
 {
-    height: px;
-    width: 24 px;
-    position: relative;
-    padding-top: 7 px;
+    height: auto;
+    width: 100%;
 }
+
+/* LOGO and SEARCH BOX*/
+
+div.middle_section
+{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.logo_container img
+{
+    
+    width: 100%;
+    height: auto;
+}
+.search_box
+{
+    width: 120px;
+    height: 30px;
+    display: block;
+    background: red;
+}
+
+.search_box input
+{
+    margin: auto;
+    position: relative;
+}
+
+div.mic_container
+{
+    width: 10px;
+    height: 10px;
+}
+
+.mic_container img
+{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+/*BUTTONS*/
+
+/*FOOTER*/
+
+footer
+{
+    width: 100%;
+    background: rgb(138, 138, 138);
+    position: absolute;
+    bottom: 0px;
+}
+
+div.left
+{
+    float: left;
+}
+
+.left ul li
+{
+    display: inline-block;
+    padding-left:  10px;
+    text-align: left;
+}
+
+div.right
+{
+    float: right;   
+}
+
+.right ul li
+{
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
