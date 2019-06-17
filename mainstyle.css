@@ -4,6 +4,10 @@ body
     background: white;
 }
 
+div.wrapper
+{
+    margin: 5px;
+}
 
 a {
 	text-decoration:none;
@@ -18,6 +22,7 @@ a:hover {
 
 nav
 {
+    display: block;
     float: right;
 }
 
@@ -51,6 +56,7 @@ div.middle_section
     margin-right: auto;
     width: 50%;
     height: auto;
+    border: 5px solid black;
 }
 
 .logo_container img
@@ -58,6 +64,7 @@ div.middle_section
     
     width: 100%;
     height: auto;
+    border : 5px solid black;
 }
 .search_box
 {
@@ -70,7 +77,8 @@ div.middle_section
 .search_box input
 {
     margin: auto;
-    position: relative;
+    position: absolute;
+    left: 50%;
 }
 
 div.mic_container
@@ -85,6 +93,7 @@ div.mic_container
     position: relative;
     width: 100%;
     height: auto;
+    overflow: auto;
 }
 
 /*BUTTONS*/
