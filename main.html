@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mainstyle.css">
     <title>Google</title>
 </head>
 
@@ -15,19 +15,27 @@
         <ul class="nav">
             <li><a href="#">Gmail</a></li>
             <li><a href="#">Images</a></li>
-            <div   class ="nav_container"><li><a href="#"><img id="icon" src="App_icon.png" alt="Apps"></a></li></div>
+            <div   class ="nav_container"><li><a href="#"><img id="icon" src="App_icon.png" alt="Apps" height="24px" width="12px"></a></li></div>
             <div  class ="nav_container"><li><a href="#"><img id ="profile" src="profile.png" alt="profile"></a></li></div>
         </ul>
   
     </nav>
 
     <div class="middle_section">
-    <div class="logo">
         <div class="logo_container">
             <img id="Google_logo" src="proxy.duckduckgo.com.jpeg" alt="Google_Logo">
+         </div>
+    <div class="search_box">
+        <input type="text" placeholder="Search or Enter URL">
+        <div class="mic_container">
+            <img id="Mic" src="mic_icon.png" alt="Mic">
         </div>
-    </div>  
-  
+    </div>
+    </div>
+   
+    <div class="buttons">
+        <input id="search" type="submit" name="search" value="Google Search"/>
+        <input id="lucky" type="submit" name="lucky"  value="I'm Feeling Lucky"/>
     </div>
     <footer>
         <div class="left">
